@@ -7,9 +7,16 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
-    <!-- فایل ریدمی (README) -->
+    <!-- فایل ریدمی (README.md) -->
     <url>
-        <loc>https://mosifantastic.github.io/buy-config-v2ray/README</loc>
+        <loc>https://github.com/MosiFantastic/buy-config-v2ray/blob/main/README.md</loc>
+        <lastmod>2025-04-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- لینک به مخزن GitHub -->
+    <url>
+        <loc>https://github.com/MosiFantastic/buy-config-v2ray/tree/main</loc>
         <lastmod>2025-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
