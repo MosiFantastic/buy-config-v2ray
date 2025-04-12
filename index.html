@@ -43,6 +43,12 @@
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
@@ -50,10 +56,37 @@
             margin: 0;
         }
 
+        /* Navigation Menu */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
         /* Section for Introduction */
         section.introduction {
             background-color: #fff;
-            padding: 40px;
+            padding: 80px 40px 40px;
             margin: 20px 0;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -139,6 +172,28 @@
             text-decoration: underline;
         }
 
+        /* FAQ Section */
+        .faq h2 {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .faq div {
+            margin-bottom: 20px;
+        }
+
+        .faq h3 {
+            font-size: 1.8em;
+            color: #f39c12;
+        }
+
+        .faq p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
     </style>
 </head>
 
@@ -147,17 +202,24 @@
     <!-- Header Section -->
     <header>
         <h1>خرید کانفیگ V2Ray</h1>
+        <nav>
+            <ul>
+                <li><a href="#pricing">قیمت‌ها</a></li>
+                <li><a href="#faq">سوالات متداول</a></li>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#config">درباره کانفیگ V2Ray</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Introduction Section -->
-    <section class="introduction">
-        <h2>چرا خرید کانفیگ V2Ray؟</h2>
-        <p>با خرید کانفیگ V2Ray، از اینترنت آزاد و پرسرعت با امنیت بالا بهره‌مند خواهید شد. کانفیگ‌های ما به شما این امکان را می‌دهند که بدون نگرانی از فیلترینگ، به وب‌سایت‌ها و سرویس‌های مختلف دسترسی پیدا کنید. سرعت بالا، پینگ پایین و امنیت کامل تنها برخی از مزایای خرید کانفیگ V2Ray است.</p>
-        <p>در سرویس ما، تمامی کانفیگ‌ها دارای پشتیبانی 24/7 بوده و شما می‌توانید در هر زمان که نیاز دارید از خدمات ما بهره‌برداری کنید.</p>
+    <section id="config" class="introduction">
+        <h2>درباره کانفیگ V2Ray</h2>
+        <p>کانفیگ V2Ray یکی از بهترین ابزارها برای دسترسی به اینترنت آزاد و امن است. این کانفیگ‌ها به شما کمک می‌کنند تا بدون نگرانی از فیلترینگ و محدودیت‌های جغرافیایی، به تمامی سایت‌ها و سرویس‌ها دسترسی پیدا کنید. V2Ray با قابلیت‌های ویژه‌ای چون پشتیبانی از پروتکل‌های مختلف، سرعت بالا و امنیت تضمینی شناخته می‌شود.</p>
     </section>
 
     <!-- Pricing Plans Section -->
-    <section class="pricing">
+    <section id="pricing" class="pricing">
         <div class="pricing-card">
             <h3>کانفیگ یک ماهه</h3>
             <p>مناسب برای کاربران عادی و استفاده‌های کوتاه مدت</p>
@@ -181,7 +243,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq">
+    <section id="faq" class="faq">
         <h2>سوالات متداول</h2>
         <div>
             <h3>چطور کانفیگ V2Ray را خریداری کنم؟</h3>
@@ -189,13 +251,23 @@
         </div>
         <div>
             <h3>آیا کانفیگ‌های شما امن هستند؟</h3>
-            <p>بله، تمامی کانفیگ‌های ما با استفاده از پروتکل‌های رمزنگاری معتبر مانند TLS و VMess ارائه می‌شوند و امنیت اطلاعات شما کاملاً تضمین‌شده است.</p>
+            <p>بله، تمامی کانفیگ‌ها از بهترین سرورها و با بالاترین امنیت در دسترس هستند. همچنین، تمامی پرداخت‌ها از طریق درگاه‌های امن انجام می‌شود.</p>
         </div>
+        <div>
+            <h3>آیا پشتیبانی ارائه می‌دهید؟</h3>
+            <p>بله، ما پشتیبانی 24 ساعته از طریق چت آنلاین و ایمیل برای شما فراهم کرده‌ایم. در صورت داشتن هرگونه سوال، می‌توانید با ما تماس بگیرید.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="introduction">
+        <h2>درباره ما</h2>
+        <p>ما در تیم V2Ray با هدف ارائه بهترین خدمات اینترنتی و کانفیگ‌های امن و پرسرعت به شما عزیزان فعالیت می‌کنیم. تمامی محصولات ما با کیفیت بالا و پشتیبانی 24 ساعته عرضه می‌شود تا تجربه‌ای امن و پایدار از اینترنت آزاد را برای شما فراهم کنیم.</p>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <p>© 2025 تمامی حقوق محفوظ است. <a href="#">شرایط استفاده</a> | <a href="#">حریم خصوصی</a></p>
+        <p>&copy; 2025 V2Ray - تمامی حقوق محفوظ است. طراحی شده توسط <a href="https://web-craft.ir" target="_blank">Mosi Fantastic</a></p>
     </footer>
 
 </body>
