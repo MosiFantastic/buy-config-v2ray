@@ -15,9 +15,6 @@
     <!-- Google Fonts: Vazir -->
     <link href="https://fonts.googleapis.com/css2?family=Vazir&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-
     <style>
         /* Reset some basic styles */
         * {
@@ -118,16 +115,18 @@
             width: 30%;
             text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .pricing-card:hover {
             transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
         }
 
         .pricing-card h3 {
-            font-size: 2em;
+            font-size: 2.5em;
             margin-bottom: 20px;
+            font-weight: bold;
         }
 
         .pricing-card p {
@@ -136,7 +135,7 @@
         }
 
         .pricing-card .price {
-            font-size: 2.5em;
+            font-size: 2.8em;
             color: #f39c12;
             margin-bottom: 20px;
         }
@@ -194,6 +193,28 @@
             color: #555;
         }
 
+        /* Long Description Section */
+        section.long-description {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 40px 0;
+        }
+
+        section.long-description h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        section.long-description p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
     </style>
 </head>
 
@@ -236,7 +257,7 @@
 
         <div class="pricing-card">
             <h3>کانفیگ سه ماهه</h3>
-            <p>مناسب برای استفاده طولانی مدت با پشتیبانی بیشتر</p>
+            <p>مناسب برای استفاده بلند مدت و مشتریان حرفه‌ای</p>
             <div class="price">224,000 تومان</div>
             <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%db%8c%da%a9%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" target="_blank">خرید اکنون</a>
         </div>
@@ -246,12 +267,8 @@
     <section id="faq" class="faq">
         <h2>سوالات متداول</h2>
         <div>
-            <h3>چطور کانفیگ V2Ray را خریداری کنم؟</h3>
-            <p>برای خرید کانفیگ V2Ray، کافیست روی یکی از دکمه‌های "خرید اکنون" کلیک کنید و مراحل پرداخت را انجام دهید. پس از پرداخت، لینک کانفیگ به شما ارسال خواهد شد.</p>
-        </div>
-        <div>
-            <h3>آیا کانفیگ‌های شما امن هستند؟</h3>
-            <p>بله، تمامی کانفیگ‌ها از بهترین سرورها و با بالاترین امنیت در دسترس هستند. همچنین، تمامی پرداخت‌ها از طریق درگاه‌های امن انجام می‌شود.</p>
+            <h3>آیا کانفیگ‌ها امن هستند؟</h3>
+            <p>بله، تمامی کانفیگ‌ها از بهترین سرورها و با بالاترین امنیت در دسترس هستند. تمامی پرداخت‌ها از طریق درگاه‌های امن انجام می‌شود.</p>
         </div>
         <div>
             <h3>آیا پشتیبانی ارائه می‌دهید؟</h3>
@@ -263,6 +280,12 @@
     <section id="about" class="introduction">
         <h2>درباره ما</h2>
         <p>ما در تیم V2Ray با هدف ارائه بهترین خدمات اینترنتی و کانفیگ‌های امن و پرسرعت به شما عزیزان فعالیت می‌کنیم. تمامی محصولات ما با کیفیت بالا و پشتیبانی 24 ساعته عرضه می‌شود تا تجربه‌ای امن و پایدار از اینترنت آزاد را برای شما فراهم کنیم.</p>
+    </section>
+
+    <!-- Long Description Section -->
+    <section class="long-description">
+        <h2>چرا کانفیگ V2Ray بهترین گزینه برای شماست؟</h2>
+        <p>کانفیگ‌های V2Ray از جدیدترین تکنولوژی‌های امنیتی برای محافظت از حریم خصوصی شما استفاده می‌کنند. با استفاده از این سرویس‌ها، می‌توانید با سرعت بالا و امنیت کامل به اینترنت دسترسی داشته باشید. این سرویس‌ها قابل استفاده در تمامی دستگاه‌ها هستند و هیچگونه محدودیتی در اتصال و سرعت ندارند. اگر به دنبال یک راه حل امن و سریع برای عبور از فیلترینگ‌ها هستید، کانفیگ V2Ray گزینه‌ای عالی برای شماست.</p>
     </section>
 
     <!-- Footer Section -->
