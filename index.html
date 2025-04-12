@@ -3,154 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="خرید کانفیگ V2Ray با سرعت بالا، امنیت بیشتر و اتصال پایدار. فروش کانفیگ V2Ray به صورت ماهانه و چند ماهه.">
-    <meta name="keywords" content="خرید کانفیگ V2Ray, کانفیگ V2Ray, فروش V2Ray, V2Ray ماهانه, خرید کانفیگ V2Ray آنلاین">
+    <meta name="description" content="خرید کانفیگ V2Ray با سرعت بالا و امنیت کامل. با بهترین قیمت و تحویل آنی!">
+    <meta name="keywords" content="خرید کانفیگ V2Ray, کانفیگ V2Ray, خرید سرور V2Ray, اینترنت بدون فیلتر">
     <meta name="author" content="Mosi Fantastic">
-    <title>خرید کانفیگ V2Ray - فروش کانفیگ V2Ray با سرعت بالا</title>
+    <title>خرید کانفیگ V2Ray | کانفیگ V2Ray پرسرعت و امن</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
+        body, html {
             font-family: 'Vazir', sans-serif;
-            background-color: #fff;
-            color: #333;
+            direction: rtl;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            direction: rtl;
         }
         header {
-            background-color: #f57c00;
-            color: white;
+            background-color: #ff6f00;
             padding: 20px;
+            color: white;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .pricing-plans {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .plan-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+        .plan-card:hover {
+            transform: translateY(-10px);
+        }
+        .plan-card h3 {
+            color: #ff6f00;
+            font-size: 24px;
+        }
+        .plan-card p {
+            font-size: 16px;
+            color: #333;
+        }
+        .plan-card .price {
+            font-size: 22px;
+            color: #ff6f00;
+            font-weight: bold;
+        }
+        .plan-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6f00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .plan-card a:hover {
+            background-color: #e65c00;
+        }
+        .faq {
+            margin-top: 50px;
+        }
+        .faq h2 {
+            text-align: center;
+            color: #ff6f00;
+        }
+        .faq-item {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .faq-item h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+        }
+        .faq-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
         }
         footer {
             background-color: #333;
             color: white;
-            padding: 20px;
             text-align: center;
-            margin-top: 30px;
-        }
-        h1, h2 {
-            color: #222;
-        }
-        .card-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin: 20px;
-        }
-        .card {
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            width: 250px;
-            margin: 15px;
             padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.3s ease;
+            margin-top: 50px;
         }
-        .card:hover {
-            transform: translateY(-10px);
-        }
-        .card-title {
-            font-size: 18px;
-            font-weight: bold;
-            color: #333;
-        }
-        .card-price {
-            font-size: 22px;
-            color: #f57c00;
-            margin: 10px 0;
-        }
-        .btn {
-            background-color: #f57c00;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        footer a {
+            color: #ff6f00;
             text-decoration: none;
-        }
-        .btn:hover {
-            background-color: #e64a19;
-        }
-        .faq-section {
-            background-color: #f5f5f5;
-            padding: 40px;
-            margin: 30px 0;
-        }
-        .faq-item {
-            margin-bottom: 20px;
-        }
-        .faq-item h3 {
-            color: #f57c00;
-            margin-bottom: 10px;
-        }
-        .faq-item p {
-            color: #555;
-        }
-        .footer-links a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        .footer-links a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>خرید کانفیگ V2Ray</h1>
-    <p>کانفیگ V2Ray با سرعت بالا و اتصال امن برای عبور از فیلترینگ</p>
-</header>
+    <!-- Header Section -->
+    <header>
+        <h1>خرید کانفیگ V2Ray با سرعت بالا و امنیت کامل</h1>
+        <p>دستگاه‌های خود را برای تجربه اینترنتی سریع و امن آماده کنید</p>
+    </header>
 
-<!-- پلن‌ها -->
-<section class="card-container">
-    <div class="card">
-        <div class="card-title">کانفیگ یک‌ماهه</div>
-        <div class="card-price">69,000 تومان</div>
-        <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%db%8c%da%a9%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" class="btn">خرید</a>
-    </div>
-    <div class="card">
-        <div class="card-title">کانفیگ دوماهه</div>
-        <div class="card-price">129,000 تومان</div>
-        <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%d8%af%d9%88-%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" class="btn">خرید</a>
-    </div>
-    <div class="card">
-        <div class="card-title">کانفیگ سه‌ماهه</div>
-        <div class="card-price">224,000 تومان</div>
-        <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%d8%af%d9%88-%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" class="btn">خرید</a>
-    </div>
-</section>
+    <!-- Pricing Plans Section -->
+    <section>
+        <h2 style="text-align:center; color:#ff6f00;">پلن‌های خرید کانفیگ V2Ray</h2>
+        <div class="pricing-plans">
+            <div class="plan-card">
+                <h3>کانفیگ یک ماهه</h3>
+                <p>دسترسی نامحدود به اینترنت سریع و امن برای یک ماه</p>
+                <div class="price">69,000 تومان</div>
+                <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%db%8c%da%a9%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" target="_blank">خرید</a>
+            </div>
+            <div class="plan-card">
+                <h3>کانفیگ دو ماهه</h3>
+                <p>دسترسی نامحدود به اینترنت سریع و امن برای دو ماه</p>
+                <div class="price">129,000 تومان</div>
+                <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%db%8c%da%a9%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" target="_blank">خرید</a>
+            </div>
+            <div class="plan-card">
+                <h3>کانفیگ سه ماهه</h3>
+                <p>دسترسی نامحدود به اینترنت سریع و امن برای سه ماه</p>
+                <div class="price">224,000 تومان</div>
+                <a href="https://drv2protez.ir/product/%d8%b3%d8%b1%d9%88%d8%b1-v2ray-%db%8c%da%a9%d9%85%d8%a7%d9%87%d9%87-%d9%86%d8%a7%d9%85%d8%ad%d8%af%d9%88%d8%af/" target="_blank">خرید</a>
+            </div>
+        </div>
+    </section>
 
-<!-- سوالات متداول -->
-<section class="faq-section">
-    <h2>سوالات متداول</h2>
-    <div class="faq-item">
-        <h3>چگونه کانفیگ V2Ray را دریافت کنم؟</h3>
-        <p>پس از خرید یکی از پلن‌ها، لینک دانلود کانفیگ به صورت آنی برای شما ارسال خواهد شد.</p>
-    </div>
-    <div class="faq-item">
-        <h3>آیا کانفیگ V2Ray برای تمامی دستگاه‌ها قابل استفاده است؟</h3>
-        <p>بله، کانفیگ V2Ray با انواع دستگاه‌ها مانند موبایل، ویندوز و مک سازگار است.</p>
-    </div>
-    <div class="faq-item">
-        <h3>آیا این سرویس قابل تمدید است؟</h3>
-        <p>بله، شما می‌توانید در هر زمان اشتراک خود را تمدید کنید.</p>
-    </div>
-</section>
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>سوالات متداول</h2>
+        <div class="faq-item">
+            <h3>چرا باید از کانفیگ V2Ray استفاده کنیم؟</h3>
+            <p>کانفیگ V2Ray امنیت بالایی دارد و شما را قادر می‌سازد از سد فیلترینگ عبور کرده و به اینترنت آزاد دسترسی پیدا کنید.</p>
+        </div>
+        <div class="faq-item">
+            <h3>آیا کانفیگ V2Ray روی تمام دستگاه‌ها کار می‌کند؟</h3>
+            <p>بله، کانفیگ V2Ray بر روی انواع دستگاه‌ها مانند ویندوز، اندروید و iOS قابل استفاده است.</p>
+        </div>
+        <div class="faq-item">
+            <h3>چگونه کانفیگ V2Ray را خریداری کنم؟</h3>
+            <p>کافیست از طریق لینک‌های خرید در بالای صفحه اقدام به خرید کانفیگ مورد نظر کنید و بلافاصله دریافت نمایید.</p>
+        </div>
+    </section>
 
-<!-- فوتر -->
-<footer>
-    <p>© 2025 drv2protez.ir | تمامی حقوق محفوظ است</p>
-    <div class="footer-links">
-        <a href="#">درباره ما</a>
-        <a href="#">تماس با ما</a>
-        <a href="#">شرایط استفاده</a>
-        <a href="#">سیاست حفظ حریم خصوصی</a>
-    </div>
-</footer>
+    <!-- Footer Section -->
+    <footer>
+        <p>تمامی حقوق محفوظ است &copy; 2025</p>
+        <p><a href="https://drv2protez.ir">بازگشت به سایت</a></p>
+    </footer>
 
 </body>
 </html>
